@@ -1,19 +1,6 @@
 <?php
 class dateNinja extends Plugin
 {
-	public function info() {
-		return array(
-			'name' => 'Date Ninja',
-			'version' => '1.0',
-			'url' => 'http://www.chrisjdavis.org',
-			'author' => 'Chris J. Davis',
-			'authorurl' => 'http://www.chrisjdavis.org',
-			'license' => 'MIT',
-			'description' => 'Allows you to use plain language when selecting dates. Based on datejs.',
-			'copyright' => '2008',
-			);
-	}
-
 	/**
 	 * Add update beacon support
 	 **/
